@@ -27,10 +27,7 @@ class Calculator(QWidget):
 
         self.setLayout(vbox)
 
-        self.setWindowTitle('Calculator')
-        self.setWindowIcon(QIcon('icon.png'))
-        self.resize(256, 256)
-
+       
     def clearMessage(self):
         self.te1.clear()
 
